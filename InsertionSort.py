@@ -1,6 +1,6 @@
-#insertion sort checked whether the left element is greater or less than the element in
+#insertion sort checks whether the left element(s) is greater or less than the element in
 #current position
-#if the element in is less than the elements in the left it will insert in the beginning
+#if the element in the current position is less than the elements in the left it will insert in the beginning
 #example [10,8,1,2] --> [1,8,10,2] --> [1,2,8,10]
 #example [5,9,7,6]  --> [5,7,9,6] --> [5,6,7,9]
 

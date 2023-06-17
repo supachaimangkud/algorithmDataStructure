@@ -2,8 +2,11 @@
 #go through all its remaining elements, find the smallest one, and put it in second position
 #and so on
 
-#there are 2 pointer. One pointer is used to point to the current min which min pointer pointed to 
-#the first element in the beginning and the 2nd pointer is used to find minimum
+#there are 2 pointer. One pointer is used to point to the current position and
+#the 2nd pointer is used to go throuh the all elements to find minimum.
+#when the pointer is pointing to the first element, we just let the 1st element as 
+#minimum(current position) and the 2nd pointer is pointing to the next element.
+#we swap position when we find minimum
 def swap(A, i, index_min):
     tmp = A[i]
     A[i] = A[index_min]

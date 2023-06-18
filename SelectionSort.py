@@ -3,7 +3,7 @@
 #and so on
 
 #there are 2 pointer. One pointer is used to point to the current position and
-#the 2nd pointer is used to go throuh the all elements to find minimum.
+#the 2nd pointer is used to go throuh all elements to find minimum.
 #when the pointer is pointing to the first element, we just let the 1st element as 
 #minimum(current position) and the 2nd pointer is pointing to the next element.
 #we swap position when we find minimum

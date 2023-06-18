@@ -7,6 +7,7 @@
 #when the pointer is pointing to the first element, we just let the 1st element as 
 #minimum(current position) and the 2nd pointer is pointing to the next element.
 #we swap position when we find minimum
+
 def swap(A, i, index_min):
     tmp = A[i]
     A[i] = A[index_min]

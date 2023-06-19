@@ -1,4 +1,4 @@
-#go through all its elements, find the smallest one, and put it in first position
+#go through all its elements, find the smallest one from the right, and put it in first position
 #go through all its remaining elements, find the smallest one, and put it in second position
 #and so on
 

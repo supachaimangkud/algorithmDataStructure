@@ -21,7 +21,7 @@ def insert(element_1p, A, index_i):
 
     #it will put the element in the first position if the correct position is in the beginning 
     #of the array
-    #example, [5,5,6,7,2] --> [0,5,6,7,2]
+    #example, [5,5,6,7,2] --> [1,5,6,7,2]
     A[0] = element_1p
 
 def insertion_sort(A):
